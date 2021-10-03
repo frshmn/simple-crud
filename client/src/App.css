@@ -4,6 +4,9 @@
   justify-content: center;
 }
 
+.App hr {
+  width: 100%;
+}
 .information {
   display: flex;
   flex-direction: column;
@@ -20,7 +23,7 @@
   margin: 5px;
 }
 
-.information button {
+button {
   width: 320px;
   height: 50px;
   margin-top: 15px;
@@ -28,4 +31,26 @@
 
 .information button:hover {
   cursor: pointer;
+}
+
+.employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.employee {
+  width: 700px;
+  height: auto;
+  border: 1px solid;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}
+
+.employee h3 {
+  margin: 20px;
+
 }
